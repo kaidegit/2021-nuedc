@@ -132,7 +132,7 @@ def discern():
                 #     continue
                 mid_x /= 4
                 mid_y /= 4
-                # print(f"middle:{mid_x},{mid_y}")       表示一下每个框的坐标？？？？  从每个框里进行识别 模板匹配返回数是多少与标准值进行对比  框的坐标
+                # print(f"middle:{mid_x},{mid_y}")
                 found_list.append((mid_x, mid_y))
                 # if mid_x < 360:
                 #     isLeft = True
